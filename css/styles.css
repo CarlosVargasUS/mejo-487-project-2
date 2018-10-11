@@ -1,0 +1,58 @@
+@supports(grid-area: auto) {
+    #site {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:  800px 800px 800px 800px 800px 800px 800px;
+        grid-template-areas:
+            'main main main main main'
+            'dash dash dash dash dash'
+            'hist1 hist1 hist1 hist1 hist1'
+            'hist2 hist2 hist2 hist2 hist2'
+            'hist3 hist3 hist3 hist3 hist3'
+            'story story story story story'
+            'quiz quiz quiz quiz quiz';
+    }
+}
+
+.main{
+    grid-area: main;
+    background-color:#ffa5d2;
+
+}
+
+.dash{
+    grid-area: dash;
+    background-color:#ffb4d9;
+}
+
+.hist1{
+    grid-area: hist1;
+    background-color: #ffc3e1;
+}
+
+.hist2{
+    grid-area: hist2;
+    background-color:#ffa5d2;
+}
+
+.hist3{
+    grid-area: hist3;
+    background-color:#ffb4d9; 
+}
+.story{
+    grid-area: story;
+    background-color: #ffc3e1;
+}
+
+.quiz{
+    grid-area: quiz;
+    background-color:#ffa5d2;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
