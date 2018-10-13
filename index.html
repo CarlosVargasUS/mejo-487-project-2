@@ -2,39 +2,65 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width">
     <title>Home</title>
+    <meta name="author" content="Steveen Vargas" />
+    <meta name="description" content="The Quinceanera Tradition" />
+    <meta name="Resource-type" content="Document" />
+    <!--    CSS-->
+    <link rel="stylesheet" href="js/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    scripts-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
-    <div id="site">
-        <div class="main flex">
-            <p>main</p>
+    <!-- PAGE  -->
+    <div id="pagepiling">
+        <!-- PAGE 1  -->
+        <div class="section" id="section1">
+            <h1>Quinceañera</h1>
+            <p>Scroll Down</p>
         </div>
-        <div class="dash flex">
-            <p>dashboard</p>
+        <!-- PAGE 2-->
+        <div class="section" id="section2">
+            <div class="flex">
+                <a href="#page2">History</a>
+                <a href="#page3">Story</a>
+                <a href="#page4">Future</a>
+                <a href="#page5">Quiz</a>
+            </div>
         </div>
-        <div class="hist1 flex">
-            <p>history 1</p>
+        <!-- PAGE  3-->
+        <div class="section" id="section3">
+            <div class="intro">
+                <a href="page1"></a>
+                <h1>History 1</h1>
+                <p>And it will loop to the first section</p>
+            </div>
         </div>
-        <div class="hist2 flex">
-            <p>history 2</p>
+        <!-- PAGE 4 -->
+        <div class="section" id="section4">
+            <h1>History 2</h1>
+            <p>Looping top and bottom enabled</p>
         </div>
-        <div class="hist3 flex">
-        <p>history3</p>
+        <!-- PAGE 5 -->
+        <div class="section" id="section5">
+            <h1>Story</h1>
+            <p>Looping top and bottom enabled</p>
         </div>
-        <div class="story flex">
-            <p>story</p>
-        </div>
-        <div class="quiz flex">
-                <p>quiz</p>
+        <!-- PAGE 6 -->
+        <div class="section" id="section6">
+            <h1>Quiz</h1>
+            <p>Looping top and bottom enabled</p>
         </div>
     </div>
 
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>
