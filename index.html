@@ -12,10 +12,16 @@
     <!--    CSS-->
     <link rel="stylesheet" href="js/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slickQuiz.css">
     <!--    scripts-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+    <script type="text/javascript" src="js/jquery.flip.min.js"></script>
+    <script src="js/slickQuiz-config.js"></script>
+    <script src="js/slickQuiz.js"></script>
+    <script src="js/master.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 
@@ -24,42 +30,119 @@
     <div id="pagepiling">
         <!-- PAGE 1  -->
         <div class="section" id="section1">
-            <h1>Quinceañera</h1>
+            <div>
+                <h1>Quinceanera</h1>
+                <h2>(keen-sey-ah-nyair-ah)</h2>
+                <h3>Noun <br>
+                    A quinceanera is a coming-of-age-celebration for a Latina girl’s fifteenth birthday
+                    <br> Marking her transition from girl to woman.
+                </h3>
+            </div>
             <p>Scroll Down</p>
         </div>
         <!-- PAGE 2-->
         <div class="section" id="section2">
-            <div class="flex">
-                <a href="#page2">History</a>
-                <a href="#page3">Story</a>
-                <a href="#page4">Future</a>
-                <a href="#page5">Quiz</a>
+            <div class="intro">
+                <h1>Beginnings</h1>
+                <p>The quinceañera has a pretty fuzzy history, says Rodriguez. Based on her research, it was inspired
+                    by a mix of pre-Columbian traditions and European customs brought to Latin America by the
+                    colonizers.
+                    Aztec boys and girls at age 15 had to undergo a set of trials, she says: Going hunting or spending
+                    a period of time in isolation without many resources. Why 15? One theory, cited in the book
+                    Quinceañera, edited by Ilan Stavans, a professor of European studies and Spanish at Amherst
+                    College, is that 15 was the midway point of the average Aztec girl's lifespan in the 1500s. At this
+                    age, girls were considered women and presented to other tribes as marriage candidates.
+                </p>
             </div>
+
         </div>
         <!-- PAGE  3-->
         <div class="section" id="section3">
             <div class="intro">
-                <a href="page1"></a>
-                <h1>History 1</h1>
-                <p>And it will loop to the first section</p>
+                <h1>Present</h1>
+                <p>Dynamic young latinas living in the united states
+                    Quinceaneras show their strength and power through traditions that tie the past with our present.
+                    This is a tradition transcends family, it touches past,present, and future by keeping our
+                    traditions alive through a bond.
+                    The celebration in a sense is
+                </p>
             </div>
         </div>
         <!-- PAGE 4 -->
         <div class="section" id="section4">
-            <h1>History 2</h1>
-            <p>Looping top and bottom enabled</p>
+            <div class="box">
+                <div class="left-info">
+                    <div class="front">
+                        <img class="picture" src="img/ashley.jpg" alt="Ashley Lopez Boxing">
+                    </div>
+                    <div class="back">
+                        Info
+                    </div>
+                </div>
+                <div class="right-info">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/db7QVIa6xfw?rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
+
         <!-- PAGE 5 -->
         <div class="section" id="section5">
-            <h1>Story</h1>
-            <p>Looping top and bottom enabled</p>
+            <div class="box">
+                <div class="left-info">
+                    <div class="front">
+                        <img class="picture" src="img/rosi.jpg" alt="Rosi Quinceanera">
+                    </div>
+                    <div class="back">
+                        Info
+                    </div>
+                </div>
+                <div class="right-info">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Oga4DQXa-As?rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <!-- PAGE 6 -->
         <div class="section" id="section6">
-            <h1>Quiz</h1>
+            <h1>Cristina's Story</h1>
             <p>Looping top and bottom enabled</p>
         </div>
+        <!-- PAGE 7 -->
+        <div class="section" id="section7">
+
+            <body id="slickQuiz">
+                <h1 class="quizName"></h1>
+                <div class="quizArea">
+                    <div class="quizHeader">
+                        <a class="startQuiz" href="">Get Started!</a>
+                    </div>
+                </div>
+                <div class="quizResults">
+                    <h3 class="quizScore">You Scored: <span></span></h3>
+                    <h3 class="quizLevel"><strong>Ranking:</strong> <span></span></h3>
+                    <div class="quizResultsCopy"></div>
+                </div>
+            </body>
+        </div>
+        <!-- PAGE 8 -->
+        <div class="section" id="section8">
+            <div class="intro">
+                <h1>Sources</h1>
+                <p>“15: A Quinceañera Story: Ashley.” Films Media Group, 2017,
+                    fod.infobase.com/PortalPlaylists.aspx?wID=102632&xtid=146226. Accessed 13 Oct. 2018. </p> <br>
+                <p>Gharib, M. (2016). A quinceañera got A million RSVPs: The story behind the ritual. Washington: NPR.
+                    Retrieved from
+                    http://libproxy.lib.unc.edu/login?url=https://search.proquest.com/docview/1848712300?accountid=14244</p> <br>
+                <p>HBO. Ashley | 15: A Quinceañera Story (2017) | HBO. Online video Clip. YouTube, 12 Dec 2017. Web. 10
+                    Oct 2018"</p> <br>
+                <a href="http://www.latimes.com/entertainment/tv/la-et-st-hbo-15-a-quinceanera-story-20171206-story.html">Los
+                    Angeles Times</a> <br>
+
+            </div>
+        </div>
     </div>
+
 
 </body>
 

@@ -3,13 +3,13 @@ var deleteLog = false;
 $(document).ready(function () {
 	$('#pagepiling').pagepiling({
 		menu: '',
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-		sectionsColor: ['#FC9D9A', '#FE4365', '#F9CDAD', '#C8C8A9', '#83AF9B', '#FC9D9A'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7','page8'],
+		sectionsColor: ['#FC9D9A', '#FE4365', '#F9CDAD', '#C8C8A9', '#83AF9B', '#FC9D9A', '#FE4365', '#F9CDAD'],
 		loopTop: true,
 		loopBottom: true,
 		navigation: {
 			'position': 'right',
-			   'tooltips': ['Home', 'Dashboard', 'History', 'History 2', 'Story', 'Quiz']
+			   'tooltips': ['Home', 'Beginnings', 'Present', 'Ashley', 'Rosi', 'Cristina', 'Quiz','Sources']
 		   },
 		afterRender: function(){
 			$('#pp-nav').addClass('custom');
@@ -22,6 +22,12 @@ $(document).ready(function () {
 			}
 		}
 	});
+
+	$(".left-info").flip();
+
+	
+	$('#slickQuiz').slickQuiz();
+
 });
 
-console.log('Scripts js connected');
+console.log('scripts is connected');
