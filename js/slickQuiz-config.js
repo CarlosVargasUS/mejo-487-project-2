@@ -23,8 +23,39 @@ var quizJSON = {
                 {"option": "Mexican",      "correct": false},
                 {"option": "Guatemalan",     "correct": true} 
             ],
-            "correct": "<p><span>Awesome!</span> She migrated from Guatemala!</p>",
+            "correct": "<p><span>Indeed!</span> She migrated from Guatemala!</p>",
+            "incorrect": "Check Rosi's Page, you got it!"
+        },
+        {
+            "q": "At what age did Cristina come to the United States?",
+            "a": [
+                {"option": "Nope, She was born in the U.S.A",      "correct": false},
+                {"option": "3",     "correct": false},
+                {"option": "5",      "correct": true},
+                {"option": "10",     "correct": false} 
+            ],
+            "correct": "<p><span>That's correct!</span> </p>",
             "incorrect": "You need to watch the videos again!"
+        },
+        {
+            "q": "Have you ever been to a Quinceañera",
+            "a": [
+                {"option": "No",      "correct": false},
+                {"option": "I should",     "correct": true},
+                {"option": "Yes",      "correct": true}
+            ],
+            "correct": "<p><span>That's correct!</span> Awesome!</p>",
+            "incorrect": "it's a great time!"
+        },
+        {
+            "q": "Which story are you more inclined to watch in HBO?",
+            "a": [
+                {"option": "Rosi's Story",      "correct": true},
+                {"option": "Ashley's Story",     "correct": true},
+                {"option": "Both",      "correct": true}
+            ],
+            "correct": "<p><span> Hope you enjoy watch it!</span></p>",
+            "incorrect": "Hope you enjoy watch it!!"
         }
     ]
 }
