@@ -19,6 +19,12 @@
 	justify-content: center;
 
 }
+
+.flex-row{
+	display: flex;
+	justify-content: center;
+	
+}
 .p-scroll{
 padding-top: 5%;
 }
