@@ -23,10 +23,16 @@ $(document).ready(function () {
 		}
 	});
 
-	$(".left-info").flip();
+	$(".left-info").flip({
+		axis: 'y',
+		trigger: 'hover',
+		reverse: true
+	});
 
 	
-	$('#slickQuiz').slickQuiz();
+	$('#slickQuiz').slickQuiz({
+
+	});
 
 });
 
